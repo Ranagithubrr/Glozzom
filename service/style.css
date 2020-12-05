@@ -1,0 +1,51 @@
+#servicesec{
+    margin-top:64px;
+    background-image:url(../assets/service.jpeg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+#card-icon{
+    height:20px;
+}
+.fnavvbbar{
+    opacity:0.7;
+}
+
+
+
+@media screen and (max-width:991px){
+    
+   
+    .navbar-brand{
+        font-size:50px;
+    }
+    .navbar-toggler{
+        font-size:60px;
+    }
+    #navBarid a{
+        font-size:34px;
+    }
+    #servicesec{
+    margin-top:116px;
+}
+    .navbar-nav{
+        margin-top:30px;
+    } 
+    
+    
+    #servicesec p,
+    #qssec p,
+    #card-secss p{
+        font-size:32px;
+    } 
+    #card-secss li{
+        font-size:30px;
+    }
+  #servicesec h3,
+    #qssec h3,
+    #card-secss h3{
+        font-size:45px;
+    }
+    
+   
+}
