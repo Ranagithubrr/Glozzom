@@ -1,0 +1,119 @@
+body{
+    background-color:darkgrey;
+    margin:0;
+    padding:0;
+}
+.fnavvbbar{
+    opacity:0.8;
+}
+.carousel-item{
+    height:400px;
+}
+#CarouSel img{
+    background-size:cover;
+    min-width:1600px;
+}
+#CarouSel{
+    margin-top:64px;
+}
+.envem img,
+.playimg img{
+    height:50px;
+}
+#readysec{
+    background:url('assets/images%20(12).jpeg');
+    background-size:cover;
+    background-attachment:fixed;
+}
+/*
+.photogallery img{
+    min-height:400px;
+    max-height:400px;
+    min-width:600px;
+    max-width:600px;
+}
+*/
+#gallarysecid{
+    background-color:darkgrey;
+}
+footer{
+    background:black;
+}
+@media screen and (max-width:991px){
+    
+    #gallarysecid img{
+        max-height:300px;
+        min-width:300px;
+    }
+    .navbar-brand{
+        font-size:50px;
+    }
+    .navbar-toggler{
+        font-size:60px;
+    }
+    #navBarid a{
+        font-size:34px;
+    }
+    #CarouSel{
+    margin-top:116px;
+}
+    .navbar-nav{
+        margin-top:30px;
+    }
+    .carousel-caption h3{
+        font-size:60px;
+    }
+     .carousel-caption p{
+        font-size:30px;
+    }
+      .carousel-caption button{
+       width:130px;
+          height:50px;
+    }
+    
+    #turning-gear p,
+    #readysec p,
+    #twopartsec p,
+    signsec{
+        font-size:32px;
+    }
+   
+    #twopartsec a{
+        width:130px;
+          height:40px;
+    }
+   
+   
+    
+    #bs4sec h3,
+    #gallarysecid h3,
+    #signsec h3,
+    #twopartsec h3,
+    #readysec h3,
+    #turning-gear h3{
+        font-size:45px;
+    }
+    #lastform input{
+        font-size:32px;
+    }
+    #lastform button{
+        font-size:30px;
+    }
+    #lastform textarea{
+        font-size:28px;
+    }
+    
+   
+}
+@media screen and (max-width:480px){
+    #CarouSel{
+        display:none;
+        
+    }
+    #trningseec{
+        margin-top:109px;
+    }
+   
+   
+}
+
