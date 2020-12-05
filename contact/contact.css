@@ -1,0 +1,59 @@
+.fnavvbbar{
+    opacity:0.7;
+}
+#contactsec{
+    margin-top:64px;
+    background-image:url('../assets/contact.jpeg');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+#aboutimg{
+    border-radius:50%;
+    height:300px;
+    width:300px;
+   
+}
+#lasticonssvg{
+    width:20px;
+    margin-right:10px;
+}
+
+@media screen and (max-width:991px){
+    
+   
+    .navbar-brand{
+        font-size:50px;
+    }
+    .navbar-toggler{
+        font-size:60px;
+    }
+    #navBarid a{
+        font-size:34px;
+    }
+    #contactsec{
+    margin-top:116px;
+}
+    .navbar-nav{
+        margin-top:30px;
+    } 
+    #contactsec p,
+    #fomrssec p{
+        font-size:30px;
+    }
+    #fomrssec textarea{
+        font-size:28px;
+    }
+   
+   #fomrssec input,
+    #lastform button{
+        font-size:32px;
+    }
+   
+    
+  #contactsec h3,
+    #fomrssec h3{
+        font-size:42px;
+    }
+    
+   
+}
